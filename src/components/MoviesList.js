@@ -1,11 +1,12 @@
 import MovieListItem from "./MovieListItem";
 
 
-const MoviesList = ({movies}) => {
+const MoviesList = ({movies,selectMovie}) => {
 
     const movieListItems = movies.map((movie)=>{
         return <MovieListItem 
                     movie={movie} 
+                    selectMovie={selectMovie}
                
                 />
     })
