@@ -45,9 +45,9 @@ const MoviesContainer = () => {
                 /> 
                 : <div></div>
             }
-            <VisitedCountriesList 
-                visitedCountries={visitedCountries}
-                selectCountry={selectCountry}
+            <SeenMoviesList 
+                seenMovies={seenMovies}
+                selectMovie={selectMovie}
             />
 
         </div>
